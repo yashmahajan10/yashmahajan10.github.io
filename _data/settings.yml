@@ -8,10 +8,10 @@ phone: +540 998 8188
 address: 236 Pheasant Run Drive, Blacksburg, VA
 
 menu:
-- {name: About, link: '/about/'}
-- {name: Research, link: '/blog/'}
-- {name: Publication and Resume, link: '/portfolio/'}
-- {name: Contact, link: '/contact/'}
+- {name: About, link: '/about'}
+- {name: Research, link: '/blog'}
+- {name: Publication and Resume, link: '/portfolio'}
+- {name: Contact, link: '/contact'}
 
 
 #-------------------------------
