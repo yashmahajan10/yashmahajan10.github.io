@@ -1,16 +1,16 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross - Jekyll Portfolio Template
-logo: logo.png
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+title: Yash Mahajan
+logo: 
+email: yashmahajan@vt.edu
+phone: +540 998 8188
+address: 236 Pheasant Run Drive, Blacksburg, VA
 
 menu:
 - {name: About, link: '/about/'}
-- {name: Blog, link: '/blog/'}
-- {name: Portfolio, link: '/portfolio/'}
+- {name: Research, link: '/blog/'}
+- {name: Projects, link: '/portfolio/'}
 - {name: Contact, link: '/contact/'}
 
 
@@ -35,11 +35,11 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Yash Mahajan 
 
 social:
 - {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
+- {icon: "ti-linkedin", link: "#"}
 - {icon: "ti-dribbble", link: "#"}
 - {icon: "ti-twitter", link: "#"}
 
@@ -92,10 +92,10 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: Back-end Development, color: '#9473e6', value: '90%'}
+- {name: Front-end Development, color: '#fdb157', value: '80%'}
+- {name: Machine Learning, color: '#bdecf6', value: '70%'}
+- {name: Blockchain, color: '#ffbcaa', value: '70%'}
 
 
 #-------------------------------
@@ -103,9 +103,10 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+- {name: Full-Stack Intern, icon: 'icon-1.png', date: 'Dec 2016 - Jan 2017', organization: 'The Glitch Pvt Media Ltd'}
+- {name: Back-end Intern, icon: 'icon-2.png', date: 'May 2018 - Aug 2018', organization: 'Reliance Infocomm Ltd'}
+- {name: Co-op, icon: 'icon-3.png', date: 'Dec 2018 - May 2019', organization: 'Reliance Industries Ltd'}
+- {name: Graduate Teaching Assisant, icon: 'icon-1.png', date: 'Dec 2019 - Present', organization: 'Virginia Tech'}
 
 
 #-------------------------------
@@ -113,10 +114,10 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: Master of Science in Computer Science and Application, date: '2019 - Present', organization: 'Virginia Polytechnic Institute and State University (Virginia Tech)'}
+- {name: Bachelor of Technology in Computer Science, date: '2015-2019', organization: 'Vellore Institute of Technology (VIT)'}
+- {name: Higher Secondary Certificate, date: '2015', organization: 'Hiranandani Foundation School'}
+- {name: Secondary School Certificate, date: '2013', organization: 'Hiranandani Foundation School'}
 
 
 #-------------------------------
@@ -290,4 +291,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: yashmahajan@vt.edu
