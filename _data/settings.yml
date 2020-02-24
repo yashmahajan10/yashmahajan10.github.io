@@ -10,7 +10,7 @@ address: 236 Pheasant Run Drive, Blacksburg, VA
 menu:
 - {name: About, link: '/about/'}
 - {name: Research, link: '/blog/'}
-- {name: Projects, link: '/portfolio/'}
+- {name: Publication and Resume, link: '/portfolio/'}
 - {name: Contact, link: '/contact/'}
 
 
@@ -38,10 +38,8 @@ hero:
   hero-title: Hi! I’m <br> Yash Mahajan 
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-linkedin", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-linkedin", link: "https://www.linkedin.com/in/yash-mahajan-19486a126/"}
+- {icon: "ti-github", link: "https://github.com/yashmahajan10"}
 
 
 #-------------------------------
@@ -49,7 +47,7 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  My name is Yash Mahajan and I am pursuing Master of Science in Computer Science and Application from Virginia Polytechnic and State University (Virginia Tech). I completed my Bachelor of Technology in Computer Science with specialisation in Bioinformatics from Vellore Insititue of Technology (VIT) in the year 2019 and I felt that I needed some real research experience to know the nuances in the field of Social Network Analysis, which is where my research interest lies.   
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -61,30 +59,17 @@ blurb-btn-name: know more
 work-process:
   - title : "Research and Plan"
     icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Research and Planning focusses the researcher so that before they begin their research, they fully understand what the research objectives are and what actions they need to take to achieve that objective."
     
   - title : "Design and Develop"
     icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Defining the components, modules, interfaces, and data for a system to satisfy and achieve the research objectives. Putting the thoughts into actions. "
     
   - title : "Deliver"
     icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Coming up with a tangible or intangible product which satisifes the deliverables and succesfully tackles the research objective.  "
 
 
-# My Team Section
-team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
-    
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
-    
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
 
 
 #-------------------------------
@@ -118,31 +103,6 @@ education:
 - {name: Bachelor of Technology in Computer Science, date: '2015-2019', organization: 'Vellore Institute of Technology (VIT)'}
 - {name: Higher Secondary Certificate, date: '2015', organization: 'Hiranandani Foundation School'}
 - {name: Secondary School Certificate, date: '2013', organization: 'Hiranandani Foundation School'}
-
-
-#-------------------------------
-# Services Section
-
-services-title: Services
-services:
-- {
-    name: UI Design,
-    icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
-- {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
-  }
-- {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
 
 
 
@@ -237,55 +197,13 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Dilip Krishnaswamy"
+    image: "assets/images/user-3.jpg"
+    designation : "Vice President, Reliance Industries Ltd."
+    content : "During his intership and co-op, Yash showed great enthusiasm to learn new areas and concepts. He has the ability to learn quickly, and he was extremely diligent in his work. He was also very keen to produce work of high quality when he worked
+on the MNP Blockchain project. Yash has very good ability to work independently as well as in a team."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-
-#-------------------------------
-# Client Slider Section
-
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
 
 #-------------------------------
 # Contact Section

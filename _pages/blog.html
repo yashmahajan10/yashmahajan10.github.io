@@ -1,37 +1,28 @@
 ---
 layout: page
-title: Blogs
+title: Research
 ---
-<!-- blog -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      {% for post in site.posts %}
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <article class="card shadow">
-          <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/blog/{{ post.image }}" alt="{{ post.title }}">
-          <div class="card-body">
-            <h4 class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title | escape }}</h4>
-            <p class="cars-text">{{ post.content | strip_html | truncate: 127 }}</p>
-            <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary">Read More</a>
-          </div>
-        </article>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-<!-- /blog -->
 
-<!-- clients -->
-<section class="section bg-light">
+
+<section class="section bg">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">My Clients</h2>
+        <h3 class="section-title">MiSA - A System for a Microlending Service toAssist Edge Communities</h3>
+        <h4>In this paper, we propose a distributed edge+cloud system to assist with microlending services to communities, with machine learning catered to that specific community. A combination of technologies including microservices-based architecture and blockchain technology coupled with machine learning is utilized to provide microfinancing services to help sustain businesses in a local community, and to enable the community to grow into a thriving economy. To minimize the widespread expressed risk, in our prototype, the prediction of whether a loan will default or not is based on the various decision-enabling parameters and on any available information about the borrowers' past transaction as well as aggregate metrics related to the community that the borrower resides in. The authors hope that the suggested distributed edge+cloud architecture in the paper can be leveraged for other emerging sustainable edge applications as well.  </h4>
       </div>
     </div>
     {% include client-slider.html %}
   </div>
 </section>
-<!-- /clients -->
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3 class="section-title">Holistic Credit Rating System for Online Microlending Platforms with Blockchain Technology</h3>
+        <h4>The inexorable rise of the Internet has given traditional microlending facilities a new online platform where people from any part of the world can lend their money to those in need of it. With the risk of defaults being tremendously high in comparison to traditional financing, there is an utmost need for the platform to be transparent and trustworthy. Keeping this in mind, we propose a model which is based on the blockchain technology and uses a holistic rating system to rate both the borrower and lender instead of the generally used rating of the Microfinance Institutions (MFIs) or Field Partners (FP), which act as intermediary and have a tie-up with the online peer-to-peer platforms nowadays. This proposed model provides security along with openness in the system and can be integrated into the existing systems for a more efficient system.</h4>
+      </div>
+    </div>
+    {% include client-slider.html %}
+  </div>
+</section>
